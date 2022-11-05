@@ -1,6 +1,7 @@
 Particle [] particles;
 void setup() {
   size(200,200);
+  background(0);
   particles = new Particle[300];
   for(int i = 0; i < particles.length; i++) {
     particles[i] = new NormalParticle();
